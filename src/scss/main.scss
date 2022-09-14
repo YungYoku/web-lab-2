@@ -1,4 +1,7 @@
 @import "fonts";
+@import "header";
+@import "intro";
+@import "footer";
 
 * {
   box-sizing: border-box;
@@ -7,6 +10,7 @@
   padding: 0;
 
   font-family: "Karla", sans-serif;
+  color: #ffffff;
 
   border: none;
   outline: none;
@@ -16,27 +20,7 @@ a {
   text-decoration: none;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  width: 100%;
-  padding: 20px 5%;
-
-  backdrop-filter: blur(20px);
-
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    a {
-      margin: 0 10px;
-    }
-  }
+body {
+  background: url("@/assets/img/flowers.webp");
+  background-size: cover;
 }

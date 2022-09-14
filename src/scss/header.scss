@@ -1,0 +1,26 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding: 20px 15%;
+
+  background: rgba(51, 51, 51, 0.3);
+
+  backdrop-filter: blur(20px);
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      margin: 0 10px;
+    }
+  }
+}
