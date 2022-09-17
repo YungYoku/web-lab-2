@@ -4,9 +4,13 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  padding: 30px 15% 60px 15%;
+  padding: 30px 20% 60px 20%;
 
   gap: 30px;
+
+  @media (max-width: 1920px) {
+    padding: 30px 15% 60px 15%;
+  }
 
   @media (max-width: 1280px) {
     padding: 40px 10% 60px 10%;

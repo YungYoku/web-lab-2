@@ -4,11 +4,15 @@ footer {
   align-items: flex-start;
 
   width: 100%;
-  padding: 60px 15% 50px 15%;
+  padding: 60px 20% 50px 20%;
 
   background: rgba(51, 51, 51, 0.7);
 
   backdrop-filter: blur(20px);
+
+  @media (max-width: 1920px) {
+    padding: 60px 15% 50px 15%;
+  }
 
   @media (max-width: 1280px) {
     padding: 60px 10% 50px 10%;
