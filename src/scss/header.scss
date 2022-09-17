@@ -2,6 +2,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 
   display: flex;
   justify-content: space-between;
@@ -13,7 +14,6 @@ header {
   background: rgba(51, 51, 51, 0.5);
 
   backdrop-filter: blur(20px);
-  z-index: 2;
 
   @media (max-width: 1280px) {
     padding: 20px 10%;
@@ -23,13 +23,23 @@ header {
     padding: 20px 5%;
   }
 
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
   nav {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    a {
-      margin: 0 10px;
+    gap: 35px;
+
+    @media (max-width: 1024px) {
+      gap: 15px;
+    }
+
+    @media (max-width: 600px) {
+      margin-top: 20px;
     }
   }
 }

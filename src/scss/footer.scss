@@ -4,18 +4,20 @@ footer {
   align-items: flex-start;
 
   width: 100%;
-  padding: 20px 15%;
+  padding: 60px 15% 50px 15%;
+
   background: rgba(51, 51, 51, 0.5);
 
   backdrop-filter: blur(20px);
 
   @media (max-width: 1280px) {
-    padding: 20px 10%;
+    padding: 60px 10% 50px 10%;
   }
 
   @media (max-width: 1024px) {
     flex-wrap: wrap;
-    padding: 20px 5%;
+
+    padding: 60px 5% 50px 5%;
     gap: 50px;
   }
 
@@ -45,9 +47,10 @@ footer {
 
     h4 {
       width: 100%;
+      margin-bottom: 20px;
+
       font-weight: 700;
       text-align: left;
-      margin-bottom: 20px;
     }
 
     h5 {

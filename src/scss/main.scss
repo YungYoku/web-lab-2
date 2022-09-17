@@ -11,6 +11,7 @@
   padding: 0;
 
   font-family: "Karla", sans-serif;
+  line-height: 1.5;
   color: #ffffff;
 
   border: none;
@@ -25,5 +26,5 @@ body {
   background: url("@/assets/img/flowers.webp");
   background-size: cover;
 
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(5px);
 }

@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  padding: 40px 15% 60px 15%;
+  padding: 30px 15% 60px 15%;
 
   gap: 30px;
 
@@ -14,14 +14,16 @@
 
   @media (max-width: 1024px) {
     justify-content: center;
+
     padding: 40px 5% 60px 5%;
   }
 
   .item {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
     width: calc(50% - 15px);
     max-width: 700px;
 
@@ -41,26 +43,28 @@
       width: 100%;
     }
 
-    .text {
+    > .text {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100%;
 
-      padding: 10px;
+      width: 100%;
+      padding: 20px;
       gap: 20px;
 
       .title {
-        font-size: 24px;
         width: 100%;
+
+        font-size: 24px;
         font-weight: 700;
         text-align: left;
       }
 
       .description {
-        font-size: 18px;
         width: 100%;
+
+        font-size: 18px;
         font-weight: 400;
         text-align: left;
         color: #dddddd;
@@ -68,9 +72,41 @@
     }
 
     .date {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
       width: 100%;
-      padding: 10px;
+      padding: 10px 20px;
+
       background: rgba(51, 51, 51, 0.5);
+
+      .text {
+        font-size: 12px;
+        color: #787878;
+      }
+
+      .like {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        font-size: 12px;
+        color: #787878;
+      }
+    }
+  }
+
+  .load-more {
+    width: 100%;
+
+    button {
+      padding: 10px 20px;
+
+      background: linear-gradient(to bottom, #3a3a3a, #1c1c1c);
+
+      cursor: pointer;
     }
   }
 }
