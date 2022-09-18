@@ -127,6 +127,20 @@
       }
     }
 
+    .slider {
+      width: 100%;
+    }
+
+    .discussion {
+      width: 100%;
+
+      font-weight: 400;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
     .music {
       display: flex;
       justify-content: space-between;
