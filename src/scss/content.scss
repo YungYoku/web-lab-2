@@ -73,6 +73,23 @@
         text-align: left;
         color: #dddddd;
       }
+
+      .quote {
+        width: 100%;
+
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        color: #dddddd;
+        font-style: italic;
+
+        .name {
+          margin-top: 10px;
+
+          font-size: 16px;
+          font-style: normal;
+        }
+      }
     }
 
     .date {
@@ -86,8 +103,17 @@
       background: rgba(51, 51, 51, 0.9);
 
       .text {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
         font-size: 14px;
         color: #787878;
+        gap: 5px;
+
+        img {
+          max-width: 14px;
+        }
       }
 
       .like {
@@ -98,6 +124,31 @@
 
         font-size: 14px;
         color: #787878;
+      }
+    }
+
+    .music {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      width: 100%;
+
+      .cover {
+        max-width: 153px;
+      }
+
+      div {
+        .addition {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 5px;
+
+          img {
+            max-width: 10px;
+          }
+        }
       }
     }
   }
