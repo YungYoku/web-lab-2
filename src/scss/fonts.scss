@@ -15,3 +15,21 @@
   src: url("@/assets/fonts/Karla-Regular.woff2") format("woff2");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Karla";
+  font-weight: 300;
+  font-style: italic;
+
+  src: url("@/assets/fonts/Karla-LightItalic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Karla";
+  font-weight: 300;
+  font-style: normal;
+
+  src: url("@/assets/fonts/Karla-Light.woff2") format("woff2");
+  font-display: swap;
+}
