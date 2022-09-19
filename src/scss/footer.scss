@@ -58,7 +58,18 @@ footer {
     }
 
     h5 {
+      width: 100%;
+      overflow: hidden;
+
       font-weight: 300;
+
+      .separator {
+        display: block;
+
+        padding: 10px 0;
+
+        letter-spacing: 10px;
+      }
     }
   }
 }
