@@ -93,11 +93,39 @@
       }
     }
 
-    .slider {
+    .swiper {
       width: 100%;
 
-      img {
-        width: 100%;
+      .swiper-slide {
+        img {
+          width: 100%;
+        }
+      }
+
+      .swiper-button-prev,
+      .swiper-button-next {
+        top: auto;
+        bottom: 20px;
+        left: auto;
+
+        width: 20px;
+        height: 20px;
+
+        color: var(--swiper-navigation-color, #ffffff);
+
+        background: #4b473f;
+
+        &::after {
+          font-size: 12px;
+        }
+      }
+
+      .swiper-button-next {
+        right: 15px;
+      }
+
+      .swiper-button-prev {
+        right: 45px;
       }
     }
 
